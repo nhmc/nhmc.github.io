@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="">
+    <title>Cosmology | It's a Metaphor for Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+        <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+        <link href="/media/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-top: 0px;
+            padding-bottom: 40px;
+        }
+
+	.banner .container-narrow a, p > a {
+          border-bottom: 1px solid;  
+          border-color: #D0D0D0;
+        } 
+        .banner .container-narrow a:hover, p > a:hover {
+          border-bottom: 1px solid;
+          text-decoration: none;
+        } 
+
+	/* fancy fade in effect for hovering over links */
+	a, .about .navbar .nav > li > a {
+	  /* First we need to help some browsers along for this to work.
+     Just because a vendor prefix is there, doesn't mean it will
+     work in a browser made by that vendor either, it's just for
+     future-proofing purposes I guess. */
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	/* ...and now for the proper property */
+	transition:.5s;
+	}
+
+        .navbar .nav > li > a:hover {
+            background-color: #FEF1ED;
+	 /*   background-color: #E6F5E6; */
+        }
+    
+        .navbar .nav > .active > a {
+            background-color: #FEF1ED;
+        }
+
+        .navbar .nav > .active > a:hover {
+            background-color: #FEF1ED;
+        }
+
+
+        input, textarea, .uneditable-input {
+           width: 30px;
+        }
+	code {
+	    text-decoration: none;
+	    color: black;
+	}
+
+      .cosmo {
+        font-family: "Helvetica", sans-serif;
+        color: black;
+       }
+
+    .cosmo input {
+        font-family: "Helvetica", sans-serif;
+    }
+
+    .footer {
+        font-size: 80%;
+        font-family: "Helvetica", sans-serif;
+    }
+
+    .cosmo td {
+        padding: 5px;
+    }
+
+      /* Custom container */
+      .container-wide {
+        margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+        width: 800px;
+      }
+
+
+      .container-narrow {
+        margin: 0 auto;
+        width: 620px;
+	float: right;
+	text-align: justify;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      .navbar {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    }
+
+      .navbar ul {
+    padding-left: 100px;
+    }
+
+      .banner {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    /* padding-top: 20px; for default menu */
+    padding-top: 80px;
+      }
+
+      .banner p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 80%;
+    padding-right: 10px;
+    float: right;
+    }
+
+    .container-narrow > blockquote {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+      .about {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 150px;
+    float: left;
+    }
+
+    .about ul {
+	list-style-type: none;
+	padding: 0;
+	margin:  0;
+	font-size: 14px;
+        font-family: "Helvetica", sans-serif;
+        color: #000;
+	line-height: 25px;
+    }
+
+    .about a {
+        color: #000;
+    }
+
+    .about img {
+        vertical-align: middle;
+        max-width: 100px;
+    }
+
+    </style>
+    <link href="/media/css/bootstrap-responsive.css" rel="stylesheet">
+        
+            <link rel="shortcut icon" href="/media/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/media/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/media/img/appleimgim-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/media/img/apple-touch-icon-114x114.png">
+    
+        
+                  </head>
+
+  <body class="cosmology">
+
+    
+     <div class="navbar navbar-fixed-top">
+		    
+	  <div class="navbar-inner">
+	    	    	      	      <ul class="nav">
+<li><a href="index.html">Welcome</a></li><li><a href="research.html">Research</a></li><li><a href="code.html">Code</a></li><li class="active"><a href="cosmology.html">Cosmology</a></li><li><a href="cv.html">CV</a></li></ul>
+	      	  </div> 	
+	  	</div>
+	
+	<div class="banner">
+	  <img src="media/images/LCO_banner.jpg">
+<p>Sunrise at <a href=http://www.lco.cl> Las Campanas Observatory</a></p>
+	</div>
+
+    <div class="container-wide">
+
+      <div class="about">
+	<img src="media/images/me_circle.png">
+	<h4>Neil <br> Crighton</h4>
+	<ul>
+	  <li> <img width=250 height=30 src='media/images/address.png'></li>
+	  <li> <img width=15 src='media/images/phone.jpg'> +61(0)3 9214 5536</li> 
+	    <li><a href="http://twitter.com/neilcrighton"><img width=15 src='media/images/twitter.png'> Twitter</a></li>
+            <li><a href="http://github.com/nhmc" ><img width=15 src='media/images/github.png'> Github</a>
+            <li><a href="http://au.linkedin.com/in/neilcrighton" ><img width=15 src='media/images/linkedin.png'> LinkedIn</a>
+	</ul>
+	<br>
+	<ul>
+	  <li>Centre for Astrophysics <br> & Supercomputing</li>
+	  <li>Swinburne University</li>
+	  <li>Victoria 3122  </li>
+	  <li>Australia </li> 
+	  <li>Room AR 304  </li>
+	</ul>
+      </div>
+
+    <div class="container-narrow">
+
+      
+<div class="row">
+  <div class="container-narrow">
+      <blockquote>
+<p><em>We know of an ancient radiation</em><br />
+<em>That haunts dismembered constellations</em><br />
+<em>A faintly glimmering radio station</em><br><br>
+<p style="text-indent: 6em;"> &#x2014; <a href="http://www.cakemusic.com/index2.html">Cake</a>, <em>Frank Sinatra</em> </p></p>
+</blockquote>
+<p>This page has a calculator useful for answering those questions that
+come up when you're in talks or writing proposals, like <em>'How many kpc
+correspond to 1 arcminute at redshift 3?'</em>, <em>'How bright is an L* galaxy
+at redshift 1.5?'</em> or <em>'What is the lookback time to redshift 2?'</em>.</p>
+<p>For a nice introduction to calculating useful cosmological quantities
+see <a href="http://arxiv.org/abs/astro-ph/9905116">Hogg (1999)</a> and the
+references therein. The default parameters below are taken from the
+<a href="http://lambda.gsfc.nasa.gov/product/map/current/parameters.cfm">WMAP7 results</a>
+(<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1001.4744">ADS</a>). A
+flat cosmology is assumed.</p>
+<!-- <script src="media/js/libs/jquery-1.5.1.min.js"></script> -->
+
+<script language="javascript" type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="media/js/jquery.flot.js"></script>
+
+<script language="javascript" type="text/javascript" src="media/js/cosmology.js"></script>
+
+<script>init_params();</script>
+
+<!-- The onkeypress attribute here intercepts any keypress. We
+     process the plots and then return false if it's enter, so we
+     stop it from propagating further (in Chrome, it reloads the
+     page otherwise). -->
+
+<div class="cosmo">
+<form name="parform">
+  <table class="form">
+    <tr>
+      <td> w <input type="text" name="w" onkeypress="return intercept_enter(event);"></td>
+      <td>H<sub>0</sub> <input type="text" name="H0" onkeypress="return intercept_enter(event);"> km/s/Mpc</td>
+      <td style="width:50px"></td>
+      <td><i>z</i><sub>min</sub> <input type="text" name="zmin" onkeypress="return intercept_enter(event);"></td>
+      <td><i>z</i><sub>max</sub> <input type="text" name="zmax" onkeypress="return intercept_enter(event);"></td>
+    </tr>
+    <tr>
+      <td>&#x03a9<sub>m</sub> <input type="text" name="Om" onkeypress="return intercept_enter(event);"></td>
+      <td>&#x03a9<sub>&#x039b</sub>=<a id="printOl" style="text-decoration:none; color:black"> </a>, &#x03a9<sub>k</sub> = 0</td>
+      <td></td>
+      <td></td>
+      <td><input type="button" value=" Plot " onclick="doplots();" > </td>
+    </tr>
+ </table>
+</form>
+
+<p> Comoving distance to <i>z</i><sub>min</sub> = <a id="printDc1" style="border-bottom:0px; color:black"> </a> Mpc <br>
+Comoving distance to <i>z</i><sub>max</sub> = <a id="printDc2" style="border-bottom:0px; color:black"> </a> Mpc </p>
+
+<table style="text-align:center; padding:10px">
+<tbody>
+  <tr>
+    <td> Distance (Mpc) per arcmin </td>
+    <td> Hubble parameter (km/s/Mpc) </td>
+  </tr>
+  <tr style="text-align:left">
+    <td><div id="plot_dist" style="width:270px;height:250px;"></div> </td>
+    <td><div id="plot_H" style="width:270px;height:250px;"></div> </td>
+  </tr>
+  <tr>
+    <td> <i>z</i> </td>
+    <td> <i>z</i> </td>
+  </tr>
+  <tr>
+    <td> Elapsed time since the emission of a <br>
+         photon with redshift <i>z</i> (Gyr) </td>
+    <td> Rest-frame apparent b magnitude <br>
+      of a <i>M</i><sub>b</sub> = -21 galaxy </td>
+  </tr>
+  <tr style="text-align:left">
+    <td><div id="plot_Tl" style="width:270px;height:250px;"></div> </td>
+    <td><div id="plot_Lstar" style="width:270px;height:250px;"></div> </td>
+  </tr>
+  <tr>
+    <td> <i>z</i> </td>
+    <td> <i>z</i> </td>
+  </tr>
+</tbody>
+</table>
+
+<script>print_params(); doplots();</script>
+</div>
+
+<p><em>M</em><sub>b</sub> = -21 roughly corresponds to the L<sup>*</sup> value of the
+<a href="http://adsabs.harvard.edu/abs/1976ApJ...203..297S">Schechter luminosity
+function</a> fitted at
+<em>z</em> = 0&#x2013;1 by <a href="http://adsabs.harvard.edu/abs/2007ApJ...665..265F">Faber et
+al. (2007)</a>.</p>
+<p>Take a look at some other popular <a href="http://www.google.com/search?hl=en&amp;q=cosmology+calculator">cosmology
+calculators</a>.</p>  </div><!--span-->
+</div><!--row-->
+
+      <hr>
+      <footer class="footer">
+                <p>Created using <a href="https://github.com/auzigog/hyde-bootstrap">hyde-bootstrap</a>. Theme inspired by <a href="http://mmistakes.github.io/minimal-mistakes">minimal mistakes</a>.</p>
+              </footer>
+    </div> <!-- /container-narrow -->
+    </div> <!-- /container-wide -->
+
+        
+                            
+            
+        
+    <!--[if lt IE 7 ]>
+      <script src="/media/js/libs/dd_belatedpng.js"></script>
+      <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+
+      </body>
+</html>
